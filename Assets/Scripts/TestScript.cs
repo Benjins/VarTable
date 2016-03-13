@@ -4,8 +4,8 @@ using System.Collections.Generic;
 
 public class TestScript : MonoBehaviour {
 
-    public string name = "";
-    public int iVar = 9;
+    public string _nameVar = "";
+    public int iVsar = 9;
     public float lalala = 1.002f;
 
     public List<string> namesList = new List<string>();

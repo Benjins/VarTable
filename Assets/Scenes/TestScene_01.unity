@@ -293,6 +293,83 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
+--- !u!1 &670059907
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 670059909}
+  - 114: {fileID: 670059908}
+  m_Layer: 0
+  m_Name: VarShelf2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!114 &670059908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 670059907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ce4bca6ed6442045bc01e4ddaaec761, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tableVars:
+  - typeName: System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    fieldName: iVar
+    target: {fileID: 1056635766}
+    varType: 0
+  - typeName: UnityEngine.Color, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    fieldName: color
+    target: {fileID: 1577756617}
+    varType: 1
+  - typeName: UnityEngine.Vector3, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    fieldName: size
+    target: {fileID: 6592846, guid: da669b57ae49e5241aaa2ca3aca4556b, type: 2}
+    varType: 1
+  - typeName: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    fieldName: enabled
+    target: {fileID: 2308822, guid: da669b57ae49e5241aaa2ca3aca4556b, type: 2}
+    varType: 1
+  - typeName: UnityEngine.LightType, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    fieldName: type
+    target: {fileID: 1577756617}
+    varType: 1
+  - typeName: UnityEngine.Vector3, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    fieldName: size
+    target: {fileID: 135144751}
+    varType: 1
+  - typeName: System.Collections.Generic.List`1[[System.String, mscorlib, Version=2.0.0.0,
+      Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=2.0.0.0,
+      Culture=neutral, PublicKeyToken=b77a5c561934e089
+    fieldName: namesList
+    target: {fileID: 1056635766}
+    varType: 0
+  - typeName: System.Single[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    fieldName: numsArr
+    target: {fileID: 1056635766}
+    varType: 0
+--- !u!4 &670059909
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 670059907}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
 --- !u!1 &1056635765
 GameObject:
   m_ObjectHideFlags: 0
@@ -321,10 +398,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: FFF
-  iVar: 34
+  iVar: 555
   lalala: 3.2
   namesList:
-  - $%
+  - $@$FG
   - $#^v whr
   numsArr:
   - 3.1
@@ -453,10 +530,6 @@ MonoBehaviour:
       PublicKeyToken=null
     fieldName: type
     target: {fileID: 1577756617}
-    varType: 1
-  - typeName: System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-    fieldName: name
-    target: {fileID: 1764826143}
     varType: 1
   - typeName: UnityEngine.Vector3, UnityEngine, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null

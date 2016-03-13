@@ -204,6 +204,10 @@ public class VarTableField : VarTableVar
     {
         Type monoType = target.GetType();
         FieldInfo targetField = monoType.GetField(fieldName);
+        if (targetField == null)
+        {
+            return true;
+        }
 
         EditorGUILayout.BeginHorizontal();
 
