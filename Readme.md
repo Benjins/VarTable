@@ -7,6 +7,8 @@ How to:
  2. Select an object (in the scene or a prefab), a component, and a field name.
  3. Modify the value.
  
+ ![Screenshot of VarTable editor GUI](img/screenshot.jpg)
+ 
 The modifications show up in real time to the affected variable.  It works for properties (assuming they act like an interface to a field) and fields.
 
 Currently only supports public fields/properties.
