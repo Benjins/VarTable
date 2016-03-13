@@ -331,9 +331,6 @@ MonoBehaviour:
   - 2.11
   - 3.2
   - 8.4
-  - -2.1
-  - 5.444
-  - 9.5
 --- !u!4 &1056635767
 Transform:
   m_ObjectHideFlags: 0
@@ -371,7 +368,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 6
   m_Type: 1
-  m_Color: {r: 0.9411765, g: 0.76124567, b: 0.9362129, a: 1}
+  m_Color: {r: 0.9852941, g: 0.85488755, b: 0.9816967, a: 1}
   m_Intensity: 0.2
   m_Range: 10
   m_SpotAngle: 30
